@@ -1,17 +1,21 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿namespace AppCheckList1;
 
-namespace AppCheckList1
+public partial class App : Application
 {
-    public partial class App : Application
+    public App()
     {
-        public App()
-        {
-            InitializeComponent();
-        }
+        InitializeComponent();
+    }
 
-        protected override Window CreateWindow(IActivationState? activationState)
+    protected override Window CreateWindow(IActivationState? activationState)
+    {
+        var shell = new AppShell();
+
+        shell.Dispatcher.Dispatch(async () =>
         {
-            return new Window(new AppShell());
-        }
+            await Shell.Current.GoToAsync("//login");
+        });
+
+        return new Window(shell);
     }
 }
