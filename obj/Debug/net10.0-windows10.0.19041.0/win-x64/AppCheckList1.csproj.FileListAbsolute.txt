@@ -1055,3 +1055,4 @@ C:\Users\TI2\Documents\projetos\AppCheckList\obj\Debug\net10.0-windows10.0.19041
 C:\Users\TI2\Documents\projetos\AppCheckList\obj\Debug\net10.0-windows10.0.19041.0\win-x64\qualifiers.txt
 C:\Users\TI2\Documents\projetos\AppCheckList\obj\Debug\net10.0-windows10.0.19041.0\win-x64\qualifiers.txt.intermediate
 C:\Users\TI2\Documents\projetos\AppCheckList\obj\Debug\net10.0-windows10.0.19041.0\win-x64\MultipleQualifiersPerDimensionFound.txt
+C:\Projetos\AppCheckList1\obj\Debug\net10.0-windows10.0.19041.0\win-x64\AppCheckList1.sourcelink.json

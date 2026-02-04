@@ -1,20 +1,119 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppCheckList1.Pages.LoginPage"
-             Title="Login">
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:pageModels="clr-namespace:AppCheckList1.PageModels"
+    x:Class="AppCheckList1.Pages.LoginPage"
+    x:DataType="pageModels:LoginModel"
+    Title="Login"
+    BackgroundColor="{AppThemeBinding Light=#F5F6FA}">
 
-    <VerticalStackLayout Padding="30"
-                         Spacing="15"
-                         VerticalOptions="Center">
+   
+    <AbsoluteLayout>
 
-        <Label Text="Login"
-               FontSize="24"
-               HorizontalOptions="Center" />
+      
+        <BoxView
+            Color="#4F46E5"
+            Opacity="0.10"
+            WidthRequest="260"
+            HeightRequest="260"
+            CornerRadius="130"
+            AbsoluteLayout.LayoutBounds="1,-0.2,260,260"
+            AbsoluteLayout.LayoutFlags="PositionProportional" />
 
-        <Button Text="Entrar"
-                Clicked="BtnLogin_Clicked" />
+        <BoxView
+            Color="#EC4899"
+            Opacity="0.10"
+            WidthRequest="180"
+            HeightRequest="180"
+            CornerRadius="90"
+            AbsoluteLayout.LayoutBounds="0,0.3,180,180"
+            AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <BoxView
+            Color="YelloW"
+            Opacity="0.10"
+            WidthRequest="250"
+            HeightRequest="150"
+            CornerRadius="130"
+            AbsoluteLayout.LayoutBounds="1,1,150,150"
+            AbsoluteLayout.LayoutFlags="PositionProportional" />
 
-    </VerticalStackLayout>
 
+        <ScrollView
+            AbsoluteLayout.LayoutBounds="0,0,1,1"
+            AbsoluteLayout.LayoutFlags="All">
+
+            <VerticalStackLayout
+                Padding="30"
+                Spacing="25"
+                VerticalOptions="Center">
+
+               
+                <Frame
+                    Padding="30"
+                    CornerRadius="20"
+                    HasShadow="True"
+                    BackgroundColor="{AppThemeBinding Light=White}">
+
+                    <VerticalStackLayout Spacing="20">
+
+                        
+                        <Frame
+                            WidthRequest="100"
+                            HeightRequest="100"
+                            CornerRadius="50"
+                            BackgroundColor="#E0E7FF"
+                            HorizontalOptions="Center"
+                            HasShadow="False">
+
+                            <Label
+                                Text="👤"
+                                FontSize="42"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+                        </Frame>
+
+                        <Label
+                            Text="Acesso ao sistema"
+                            FontSize="22"
+                            FontAttributes="Bold"
+                            HorizontalOptions="Center"
+                            TextColor="{AppThemeBinding Light=Black Dark=White}"/>
+
+                        
+                        <Entry
+                            Placeholder="Nome completo"
+                            Text="{Binding FullName}"
+                            HeightRequest="50"
+                            BackgroundColor="#F3F4F6"
+                            TextColor="Black"
+                            FontAttributes="Bold"/>
+
+                       
+                        <Entry
+                            Placeholder="Senha"
+                            Text="{Binding Password}"
+                            IsPassword="True"
+                            HeightRequest="50"
+                            BackgroundColor="#F3F4F6"
+                            TextColor="Black"
+                            FontAttributes="Bold"/>
+
+                        
+                        <Button
+                            Text="Entrar"
+                            HeightRequest="50"
+                            CornerRadius="12"
+                            FontAttributes="Bold"
+                            BackgroundColor="#4F46E5"
+                            TextColor="White"
+                            Command="{Binding SaveCommand}"/>
+
+                    </VerticalStackLayout>
+                </Frame>
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+    </AbsoluteLayout>
 </ContentPage>

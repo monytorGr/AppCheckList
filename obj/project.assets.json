@@ -32807,29 +32807,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TI2\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\TI\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TI2\\Documents\\projetos\\AppCheckList\\AppCheckList1.csproj",
+      "projectUniqueName": "C:\\Projetos\\AppCheckList1\\AppCheckList1.csproj",
       "projectName": "AppCheckList1",
-      "projectPath": "C:\\Users\\TI2\\Documents\\projetos\\AppCheckList\\AppCheckList1.csproj",
-      "packagesPath": "C:\\Users\\TI2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TI2\\Documents\\projetos\\AppCheckList\\obj\\",
+      "projectPath": "C:\\Projetos\\AppCheckList1\\AppCheckList1.csproj",
+      "packagesPath": "C:\\Users\\TI\\.nuget\\packages\\",
+      "outputPath": "C:\\Projetos\\AppCheckList1\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\TI2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\TI\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net10.0-android",

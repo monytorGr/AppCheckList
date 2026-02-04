@@ -5,6 +5,7 @@ public partial class App : Application
     public App()
     {
         InitializeComponent();
+
     }
 
     protected override Window CreateWindow(IActivationState? activationState)
@@ -13,9 +14,13 @@ public partial class App : Application
 
         shell.Dispatcher.Dispatch(async () =>
         {
-            await Shell.Current.GoToAsync("//login");
+            await Shell.Current.GoToAsync("Login");
         });
 
         return new Window(shell);
     }
+    
+
+
+
 }
