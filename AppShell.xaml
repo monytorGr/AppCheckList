@@ -29,8 +29,10 @@
     <ShellContent
         Title="Login"
         Icon="{StaticResource IconMeta}"
-        ContentTemplate="{DataTemplate pages:Login}"
-        Route="manage" />
+        ContentTemplate="{DataTemplate pages:LoginPage}"
+        Route="login"
+        Shell.FlyoutItemIsVisible="False" />
+
 
     <Shell.FlyoutFooter>
         <Grid Padding="15">
