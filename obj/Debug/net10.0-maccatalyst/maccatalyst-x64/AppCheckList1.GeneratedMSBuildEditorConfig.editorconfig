@@ -21,13 +21,13 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AppCheckList1
-build_property.ProjectDir = C:\Users\TI2\Documents\projetos\AppCheckList\
+build_property.ProjectDir = C:\Projetos\AppCheckList1\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/TI2/Documents/projetos/AppCheckList/App.xaml]
+[C:/Projetos/AppCheckList1/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppCheckList1.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
@@ -37,7 +37,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/TI2/Documents/projetos/AppCheckList/AppShell.xaml]
+[C:/Projetos/AppCheckList1/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppCheckList1.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
@@ -47,7 +47,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/TI2/Documents/projetos/AppCheckList/Pages/Controls/AddButton.xaml]
+[C:/Projetos/AppCheckList1/Pages/Controls/AddButton.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppCheckList1.Pages.Controls.AddButton.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\Controls\AddButton.xaml
@@ -57,7 +57,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/TI2/Documents/projetos/AppCheckList/Pages/Controls/CategoryChart.xaml]
+[C:/Projetos/AppCheckList1/Pages/Controls/CategoryChart.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppCheckList1.Pages.Controls.CategoryChart.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\Controls\CategoryChart.xaml
@@ -67,7 +67,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/TI2/Documents/projetos/AppCheckList/Pages/Controls/ProjectCardView.xaml]
+[C:/Projetos/AppCheckList1/Pages/Controls/ProjectCardView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppCheckList1.Pages.Controls.ProjectCardView.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\Controls\ProjectCardView.xaml
@@ -77,7 +77,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/TI2/Documents/projetos/AppCheckList/Pages/Controls/TagView.xaml]
+[C:/Projetos/AppCheckList1/Pages/Controls/TagView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppCheckList1.Pages.Controls.TagView.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\Controls\TagView.xaml
@@ -87,7 +87,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/TI2/Documents/projetos/AppCheckList/Pages/Controls/TaskView.xaml]
+[C:/Projetos/AppCheckList1/Pages/Controls/TaskView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppCheckList1.Pages.Controls.TaskView.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\Controls\TaskView.xaml
@@ -97,7 +97,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/TI2/Documents/projetos/AppCheckList/Pages/LoginPage.xaml]
+[C:/Projetos/AppCheckList1/Pages/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppCheckList1.Pages.LoginPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\LoginPage.xaml
@@ -107,7 +107,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/TI2/Documents/projetos/AppCheckList/Pages/MainPage.xaml]
+[C:/Projetos/AppCheckList1/Pages/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppCheckList1.Pages.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\MainPage.xaml
@@ -117,7 +117,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/TI2/Documents/projetos/AppCheckList/Pages/ManageMetaPage.xaml]
+[C:/Projetos/AppCheckList1/Pages/ManageMetaPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppCheckList1.Pages.ManageMetaPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\ManageMetaPage.xaml
@@ -127,7 +127,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/TI2/Documents/projetos/AppCheckList/Pages/ProjectDetailPage.xaml]
+[C:/Projetos/AppCheckList1/Pages/ProjectDetailPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppCheckList1.Pages.ProjectDetailPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\ProjectDetailPage.xaml
@@ -137,7 +137,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/TI2/Documents/projetos/AppCheckList/Pages/ProjectListPage.xaml]
+[C:/Projetos/AppCheckList1/Pages/ProjectListPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppCheckList1.Pages.ProjectListPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\ProjectListPage.xaml
@@ -147,7 +147,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/TI2/Documents/projetos/AppCheckList/Pages/TaskDetailPage.xaml]
+[C:/Projetos/AppCheckList1/Pages/TaskDetailPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppCheckList1.Pages.TaskDetailPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\TaskDetailPage.xaml
@@ -157,7 +157,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/TI2/Documents/projetos/AppCheckList/Resources/Styles/AppStyles.xaml]
+[C:/Projetos/AppCheckList1/Resources/Styles/AppStyles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppCheckList1.Resources.Styles.AppStyles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\AppStyles.xaml
@@ -167,7 +167,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/TI2/Documents/projetos/AppCheckList/Resources/Styles/Colors.xaml]
+[C:/Projetos/AppCheckList1/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppCheckList1.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
@@ -177,7 +177,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/TI2/Documents/projetos/AppCheckList/Resources/Styles/Styles.xaml]
+[C:/Projetos/AppCheckList1/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppCheckList1.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

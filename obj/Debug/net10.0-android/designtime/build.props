@@ -26,5 +26,5 @@ androidpackagenamingpolicy=lowercasecrc64
 _nugetassetsfilehash=5cd909f2e82ae6d600209316b647e5daed0bbce0b808dd7ad53988550d811b64
 typemapkind=strings-asm
 androidmanifestplaceholders=
-projectfullpath=c:\users\ti2\documents\projetos\appchecklist\appchecklist1.csproj
+projectfullpath=c:\projetos\appchecklist1\appchecklist1.csproj
 androidusedesignerassembly=true
