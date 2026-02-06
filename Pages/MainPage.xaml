@@ -10,6 +10,7 @@
              x:DataType="pageModels:MainPageModel"
              x:Name="OverviewPage"
              Title="{Binding Today}">
+    
     <ContentPage.ToolbarItems>
         <ToolbarItem
             Text="LOGIN"

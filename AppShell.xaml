@@ -5,9 +5,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:sf="clr-namespace:Syncfusion.Maui.Toolkit.SegmentedControl;assembly=Syncfusion.Maui.Toolkit"
     xmlns:pages="clr-namespace:AppCheckList1.Pages"
-    Shell.NavBarIsVisible="False"
-    FlyoutBehavior="Disabled"
-    Title="AppCheckList1">
+    Title="AppCheckList">
 
     
     <ShellContent

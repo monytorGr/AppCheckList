@@ -9,19 +9,20 @@ public partial class AppShell : Shell
     public AppShell()
     {
         InitializeComponent();
+        
+        
 
         var currentTheme = Application.Current!.RequestedTheme;
-        ThemeSegmentedControl.SelectedIndex =
-            currentTheme == AppTheme.Light ? 0 : 1;
+        ThemeSegmentedControl.SelectedIndex = currentTheme == AppTheme.Light ? 0 : 1;
     }
 
- 
     private async void OnLoginFooterClicked(object sender, EventArgs e)
     {
         await Shell.Current.GoToAsync("Login");
 
-      
         FlyoutIsPresented = false;
+        //FlyoutBehavior = FlyoutBehavior.Disabled
+
     }
 
     

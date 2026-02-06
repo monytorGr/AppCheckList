@@ -2,6 +2,8 @@
 using Microsoft.Extensions.Logging;
 using Syncfusion.Maui.Toolkit.Hosting;
 
+
+
 namespace AppCheckList1
 {
     public static class MauiProgram
@@ -14,8 +16,10 @@ namespace AppCheckList1
                 .UseMauiCommunityToolkit()
                 .ConfigureSyncfusionToolkit()
                 .ConfigureMauiHandlers(handlers =>
+
                 {
 #if WINDOWS
+
     				Microsoft.Maui.Controls.Handlers.Items.CollectionViewHandler.Mapper.AppendToMapping("KeyboardAccessibleCollectionView", (handler, view) =>
     				{
     					handler.PlatformView.SingleSelectionFollowsFocus = false;
@@ -28,8 +32,13 @@ namespace AppCheckList1
     						contentPanel.IsTabStop = true;
     					}
     				});
+
 #endif
                 })
+
+
+
+
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");

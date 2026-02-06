@@ -1,0 +1,10 @@
+<api type="debug" assembly-name="AppCheckList1" mvid="ba2cd8787be04ea586342fd4db025cc0">
+  <java-to-managed>
+    <entry java-name="crc64c888c01b202ff2b0/MainActivity" managed-name="AppCheckList1.MainActivity, AppCheckList1" managed-type-token-id="33554456" />
+    <entry java-name="crc64c888c01b202ff2b0/MainApplication" managed-name="AppCheckList1.MainApplication, AppCheckList1" managed-type-token-id="33554457" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="crc64c888c01b202ff2b0/MainActivity" managed-name="AppCheckList1.MainActivity, AppCheckList1" managed-type-token-id="33554456" />
+    <entry java-name="crc64c888c01b202ff2b0/MainApplication" managed-name="AppCheckList1.MainApplication, AppCheckList1" managed-type-token-id="33554457" />
+  </managed-to-java>
+</api>

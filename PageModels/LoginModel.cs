@@ -1,6 +1,8 @@
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 
+
+
 namespace AppCheckList1.PageModels;
 
 public partial class LoginModel : ObservableObject
@@ -18,7 +20,7 @@ public partial class LoginModel : ObservableObject
         {
             await Shell.Current.DisplayAlertAsync(
                 "Erro",
-                "Informe o nome completo.",
+                "Informe todos os campos",
                 "OK");
             return;
         }
@@ -31,9 +33,11 @@ public partial class LoginModel : ObservableObject
                 "OK");
             return;
         }
+        
      
         Preferences.Default.Set("user_name", fullName);
         Preferences.Default.Set("user_password", password);
+        Preferences.Default.Set("is_logged", true);
 
         await Shell.Current.DisplayAlertAsync(
             "Sucesso",
@@ -41,6 +45,7 @@ public partial class LoginModel : ObservableObject
             "OK");
 
         Shell.Current.FlyoutBehavior = FlyoutBehavior.Flyout;
+        Shell.Current.FlyoutIsPresented = false;
 
 
         await Shell.Current.GoToAsync("//main");
